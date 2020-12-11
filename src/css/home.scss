@@ -1,0 +1,56 @@
+$primary-color: #444;
+$secondary-color: #d80d0d;
+$primary-text-color: #ece6da;
+$fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+$show-home-image: true;
+$home-image: url(../img/background.jpg);
+$background-opacity: 0.9;
+
+@mixin background {
+  @if $show-home-image {
+    background: $home-image;
+    background-attachment: fixed;
+    background-size: cover;
+  } @else {
+    background-color: $primary-color;
+  }
+}
+
+
+.home {
+  @include background;
+  font-family: $fonts;
+  color: $primary-text-color;
+}
+
+.vue-typer {
+  font-family: $fonts;
+  font-size: 2rem;
+
+  & .custom.char {
+    color: $primary-text-color;
+  }
+}
+
+main {
+  // padding: 4rem;
+  height: 100%;
+
+  &#home {
+    overflow: hidden;
+    h1 {
+      // margin-top: 20vh;
+    }
+  }
+}
+
+p.myWorkHeader {
+  color: #dd6969;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gb-vue-timeline-update{
+  max-width: 95% !important;
+}

@@ -1,0 +1,52 @@
+$primary-color: #444;
+$secondary-color: #d80d0d;
+$primary-text-color: #ece6da;
+$fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+body {
+    background: $primary-color;
+}
+
+.main {
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    overflow: hidden;
+}
+
+.work-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'proj1 proj2'
+    'proj3 proj4';
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 30px 0 30px;
+}
+
+.proj {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+}
+
+.proj1 {
+    grid-area: proj1;
+}
+
+.proj2 {
+    grid-area: proj2;
+}
+
+.proj3 {
+    grid-area: proj3;
+}
+
+.gb-vue-timeline-update .gb-vue-timeline-update__right .gb-vue-timeline-update__thumbnail {
+    max-width: 95% !important;
+}
+
+p.myWorkHeader {
+    color: #dd6969;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+$primary-color: rgb(86, 130, 224);
+$secondary-color: #dd6969;
+$primary-text-color: #ece6da;
+$fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+    padding: 0 2rem;
+    &.lg-heading {
+      font-size: 4rem;
+      padding-top: 10px;
+    }  
+    &.sm-heading {
+      padding: 0 4rem;
+    }
+  }
+  
+.text-secondary {
+    color: $secondary-color;
+  }

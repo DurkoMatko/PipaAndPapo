@@ -1,0 +1,16 @@
+$primary-color: #444;
+$secondary-color: #dd6969;
+$primary-text-color: #ece6da;
+$fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.about {
+    min-height: calc(100vh - 60px);
+}
+
+.main-footer {
+    text-align: center;
+    padding: 1rem;
+    background: darken($primary-color, 10);
+    color: $secondary-color;
+    height: 60px;
+}
