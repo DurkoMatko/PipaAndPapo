@@ -19,7 +19,8 @@ categories: SPORTS, OUTINGS, NATURE / HIKING, FUN, TRAVEL, LIFESTONES
     :date="new Date('2021-01-09')"
     category="FUN"
     title="Don't mess with my cheese"
-    description="<p class='myWorkHeader'>'Im Italian, With Me It's Either AMORE or GUERRA!!🇮🇹'</p>"
+    description="<p class='myWorkHeader'>'Im Italian, With Me It's Either AMORE or GUERRA!!🇮🇹'</p>
+    <p>But when it comes to cheese, there's just GUERRA!</p>"
     thumbnail="/images/cheese.JPG"
     icon="sentiment_satisfied"
     color="purple"
