@@ -1,7 +1,7 @@
 $primary-color: #444;
 $secondary-color: #d80d0d;
 $primary-text-color: #ece6da;
-$fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fonts: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -16,7 +16,6 @@ $background-opacity: 0.9;
     background-color: $primary-color;
   }
 }
-
 
 .home {
   @include background;
@@ -51,6 +50,6 @@ p.myWorkHeader {
   font-weight: bold;
 }
 
-.gb-vue-timeline-update{
+.gb-vue-timeline-update {
   max-width: 95% !important;
 }
