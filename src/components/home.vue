@@ -5,6 +5,39 @@ categories: SPORTS, OUTINGS, NATURE / HIKING, FUN, TRAVEL, LIFESTONES
     <h1 class="lg-heading"><span class="text-secondary">Pipa</span> & Papo</h1>
 
     <vue-timeline-update
+    :date="new Date('2021-02-24')"
+    category="FUN"
+    title="COOOOOOLD!"
+    description="<p class='myWorkHeader'>Hot/Cold Therapy When Saunas Are Closed Due To Global Pandemic 🥶</p>
+    Lowcost whirlpool after the run."
+    thumbnail="/images/ColdBagersee.png"
+    icon="sentiment_satisfied"
+    color="purple"
+    />
+        
+    <vue-timeline-update
+    :date="new Date('2021-02-14')"
+    category="LIFESTONES"
+    title="First Valentines Day"
+    description="<p class='myWorkHeader'>For Some It Means Love, For Us It Means Foodcoma 🥞</p>
+    When you're so deep in love you don't even need to go out to have a good picnic."
+    thumbnail="/images/Valentines.png"
+    icon="house"
+    color="black"
+    />
+
+     <vue-timeline-update
+    :date="new Date('2021-01-30')"
+    category="SPORTS"
+    title="FINALLY ON THE SLOPES AGAIN!"
+    description="<p class='myWorkHeader'>Early Bird Gets The Worm ❄️</p>
+    All alone on the slope..Just too bad it was too cold to enjoy the privacy 😏"
+    thumbnail="/images/Skiing.png"
+    icon="sports_soccer"
+    color="blue"
+    />    
+
+    <vue-timeline-update
     :date="new Date('2021-01-10')"
     category="LIFESTONES"
     title="Moving in together"
@@ -137,7 +170,7 @@ categories: SPORTS, OUTINGS, NATURE / HIKING, FUN, TRAVEL, LIFESTONES
     />
 
     <vue-timeline-update
-    :date="new Date('2019-05-15')"
+    :date="new Date('2020-05-15')"
     category="LIFESTONES"
     title="FIRST TIME SPOTTED TOGETHER"
     description="<p class='myWorkHeader'>Dirndl Party at the Truppe HQs 🥳</p>
