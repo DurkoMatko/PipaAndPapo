@@ -4,6 +4,50 @@ categories: SPORTS, OUTINGS, NATURE / HIKING, FUN, TRAVEL, LIFESTONES
   <main id="home">
     <h1 class="lg-heading"><span class="text-secondary">Pipa</span> & Papo</h1>
 
+  <vue-timeline-update 
+  :date="new Date('2021-06-12')" 
+  category="LIFESTONES"
+  title="HIS DAD VS. HER HOME ADVANTAGE" 
+  description="<p class='myWorkHeader'>How to get a geologist on your side? Just take him to the mountains 😉</p>
+        20 minutes with Pipa and he forgot he came over to actually visit Papo"
+  thumbnail="/images/Tenerifee.png" 
+  icon="sentiment_satisfied" 
+  color="black" 
+  />
+
+
+  <vue-timeline-update :date="new Date('2021-05-25')"
+   category="TRAVEL"
+   title="Let's be honest, we need them stupid surfs!" 
+   description="<p class='myWorkHeader'>Living in Brunhilde without a shower made surfing even more interesting 🏄‍♂️</p>
+      Due to Corona it took longer than expected, but we finally got to ride some waves"
+   thumbnail="/images/Tenerife.png"
+   icon="flight"
+   color="red"
+  />
+
+   <vue-timeline-update
+    :date="new Date('2021-05-09')"
+    category="FUN"
+    title="3 DAY WATER FAST"
+    description="<p class='myWorkHeader'>72 hours of hangriness and we didn't kill each other 🥰</p>
+    ...actually even this 'mind over body' challenge didn't make us have our first argument. Fasting went better than expected and at the end we enjoyed the best salad and watermelon of our lives"
+    thumbnail="/images/fasting.jpg"
+    icon="sentiment_satisfied"
+    color="purple"
+    />  
+       
+  <vue-timeline-update
+    :date="new Date('2021-04-30')"
+    category="LIFESTONES"
+    title="Her home vs. his life danger"
+    description="<p class='myWorkHeader'>Loud, louder, Italians...full belly, food coma, Italy 🇮🇹</p>
+    Traveled to Bolzano for Milly's father's birthday & Martin finally got his chance to finally secure his spot in the Italian mafia hierarchy"
+    thumbnail="/images/bolzano.jpg"
+    icon="sentiment_satisfied"
+    color="black"
+    />
+       
     <vue-timeline-update
     :date="new Date('2021-02-24')"
     category="FUN"
@@ -52,7 +96,7 @@ categories: SPORTS, OUTINGS, NATURE / HIKING, FUN, TRAVEL, LIFESTONES
     :date="new Date('2021-01-09')"
     category="FUN"
     title="Don't mess with my cheese"
-    description="<p class='myWorkHeader'>'Im Italian, With Me It's Either AMORE or GUERRA!!🇮🇹'</p>
+    description="<p class='myWorkHeader'>'Im Italian, With Me It's Either AMORE or GUERRA!! 🇮🇹</p>
     <p>But when it comes to cheese, there's just GUERRA!</p>"
     thumbnail="/images/cheese.JPG"
     icon="sentiment_satisfied"
